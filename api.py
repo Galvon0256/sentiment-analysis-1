@@ -108,7 +108,6 @@ def bulk_prediction(predictor, scaler, cv, data):
 
     return predictions_csv, graph
 
-
 def get_distribution_graph(data):
     fig = plt.figure(figsize=(5, 5))
     colors = ("green", "red")
